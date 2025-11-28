@@ -9,5 +9,6 @@ COPY . .
 
 EXPOSE 3000
 
-# Asumiendo que hay un script de start, ajusta si es necesario
-CMD ["yarn", "start"]
+# Nota: El starter no tiene script de start definido. Ajusta si es necesario.
+# Para despliegue, considera usar LangGraph Cloud en lugar de VPS.
+CMD ["echo", "Container listo. Ejecuta manualmente si es necesario."]
